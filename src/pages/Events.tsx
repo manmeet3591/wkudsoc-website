@@ -23,8 +23,8 @@ export default function Events() {
       />
 
       {/* Upcoming Events */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <SectionHeading
             overline="Coming Up"
             title="Upcoming Events"
@@ -56,8 +56,8 @@ export default function Events() {
       </section>
 
       {/* Past Events */}
-      <section className="py-24 bg-charcoal-dark">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <SectionHeading
             overline="Past Operations"
             title="Past Events"

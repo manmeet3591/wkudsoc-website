@@ -40,8 +40,8 @@ export default function Research() {
       />
 
       {/* Disaster AI Tools */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Disaster AI"
@@ -91,9 +91,9 @@ export default function Research() {
       </section>
 
       {/* Research Areas */}
-      <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-wku-red/5 rounded-full blur-3xl pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Focus Areas"
@@ -132,8 +132,8 @@ export default function Research() {
       </section>
 
       {/* Publications */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Published Work"

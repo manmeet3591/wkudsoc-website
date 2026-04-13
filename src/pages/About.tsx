@@ -110,8 +110,8 @@ export default function About() {
       />
 
       {/* Introduction */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-4xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <div className="space-y-6">
               <p className="text-lg text-text-secondary leading-relaxed">
@@ -154,9 +154,9 @@ export default function About() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-wku-red/5 rounded-full blur-3xl pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Our Foundation"
@@ -164,7 +164,7 @@ export default function About() {
             />
           </ScrollReveal>
 
-          <div className="mt-16 grid lg:grid-cols-2 gap-8">
+          <div className="mt-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
             <ScrollReveal direction="left">
               <GlassCard className="p-8 h-full">
                 <div className="w-14 h-14 rounded-xl bg-wku-red/10 flex items-center justify-center mb-4">
@@ -207,8 +207,8 @@ export default function About() {
       </section>
 
       {/* Who We Serve */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Our Reach"
@@ -222,7 +222,7 @@ export default function About() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-80px' }}
-            className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+            className="mt-16 grid grid-cols-2 md:grid-cols-3 gap-6"
           >
             {whoWeServe.map((item) => {
               const Icon = item.icon;
@@ -247,9 +247,9 @@ export default function About() {
       </section>
 
       {/* Our Goals */}
-      <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark relative overflow-hidden">
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-wku-red-light/5 rounded-full blur-3xl pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Strategic Direction"
@@ -263,7 +263,7 @@ export default function About() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-80px' }}
-            className="mt-16 grid md:grid-cols-2 gap-6"
+            className="mt-16 grid gap-4 sm:gap-6 md:grid-cols-2"
           >
             {goals.map((goal, index) => (
               <motion.div key={index} variants={fadeInUp}>
@@ -284,8 +284,8 @@ export default function About() {
       </section>
 
       {/* What Makes Us Stand Out */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Our Identity"
@@ -298,7 +298,7 @@ export default function About() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-80px' }}
-            className="mt-16 grid lg:grid-cols-3 gap-8"
+            className="mt-16 grid md:grid-cols-3 gap-8"
           >
             {standOut.map((item) => {
               const Icon = item.icon;

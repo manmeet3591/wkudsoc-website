@@ -8,7 +8,7 @@ export default function PartnersCarousel() {
   const row2 = allPartners.slice(Math.ceil(allPartners.length / 2));
 
   return (
-    <section className="py-24 bg-charcoal relative overflow-hidden">
+    <section className="py-12 sm:py-16 lg:py-24 bg-charcoal relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <ScrollReveal>
           <SectionHeading
@@ -26,9 +26,9 @@ export default function PartnersCarousel() {
             {[...row1, ...row1].map((name, i) => (
               <div
                 key={`r1-${i}`}
-                className="inline-flex items-center justify-center mx-4 px-8 py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
+                className="inline-flex items-center justify-center mx-2 sm:mx-3 lg:mx-4 px-4 py-2 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
               >
-                <span className="text-white font-medium text-sm whitespace-nowrap">
+                <span className="text-white font-medium text-sm sm:text-base whitespace-nowrap">
                   {name}
                 </span>
               </div>
@@ -42,9 +42,9 @@ export default function PartnersCarousel() {
             {[...row2, ...row2].map((name, i) => (
               <div
                 key={`r2-${i}`}
-                className="inline-flex items-center justify-center mx-4 px-8 py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
+                className="inline-flex items-center justify-center mx-2 sm:mx-3 lg:mx-4 px-4 py-2 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
               >
-                <span className="text-white font-medium text-sm whitespace-nowrap">
+                <span className="text-white font-medium text-sm sm:text-base whitespace-nowrap">
                   {name}
                 </span>
               </div>

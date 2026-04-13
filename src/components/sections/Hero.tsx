@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute top-1/3 left-1/4 w-[500px] h-[500px] bg-wku-red/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/3 right-1/4 w-[400px] h-[400px] bg-wku-red-light/8 rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="relative max-w-7xl mx-auto px-6 py-32 lg:py-40 w-full">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-20 lg:py-32 w-full">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -23,7 +23,7 @@ export default function Hero() {
         >
           {/* Logo */}
           <motion.div variants={fadeInUp} className="mb-8">
-            <img src="/wkudsoc-website/images/dsoc-logo.png" alt="WKU DSOC" className="h-16 lg:h-20 mx-auto" />
+            <img src="/wkudsoc-website/images/dsoc-logo.png" alt="WKU DSOC" className="h-12 sm:h-16 lg:h-20 max-w-[280px] sm:max-w-none mx-auto" />
           </motion.div>
 
           {/* Badge */}
@@ -37,7 +37,7 @@ export default function Hero() {
           {/* Title */}
           <motion.h1
             variants={fadeInUp}
-            className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight"
           >
             Disaster Science{' '}
             <GradientText>Operations Center</GradientText>
@@ -46,7 +46,7 @@ export default function Hero() {
           {/* Subtitle */}
           <motion.p
             variants={fadeInUp}
-            className="mt-6 text-xl lg:text-2xl text-text-secondary max-w-3xl mx-auto leading-relaxed"
+            className="mt-6 text-base sm:text-lg lg:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed"
           >
             Working Together to Move Forward. Kentucky's primary hub for
             innovation in weather intelligence, disaster resilience, research,

@@ -37,7 +37,7 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
       viewport={{ once: true, margin: '-80px' }}
       transition={{ delay: index * 0.1 }}
     >
-      <GlassCard className="p-8 h-full">
+      <GlassCard className="p-4 sm:p-6 lg:p-8 h-full">
         {/* Icon */}
         <div className="w-14 h-14 rounded-xl bg-wku-red/10 flex items-center justify-center">
           <Icon className="w-7 h-7 text-wku-red" />

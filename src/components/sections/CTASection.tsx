@@ -6,12 +6,12 @@ import { ArrowRight, Mail } from 'lucide-react';
 
 export default function CTASection() {
   return (
-    <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+    <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark relative overflow-hidden">
       {/* Gradient orbs */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-wku-red/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-80 h-80 bg-wku-red-light/8 rounded-full blur-[100px] pointer-events-none" />
 
-      <div className="max-w-4xl mx-auto px-6 text-center relative">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center relative">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -27,7 +27,7 @@ export default function CTASection() {
 
           <motion.h2
             variants={fadeInUp}
-            className="text-4xl lg:text-5xl font-bold text-white"
+            className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white"
           >
             Ready to{' '}
             <GradientText>Work Together?</GradientText>
@@ -35,7 +35,7 @@ export default function CTASection() {
 
           <motion.p
             variants={fadeInUp}
-            className="mt-6 text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed"
+            className="mt-6 text-base sm:text-lg lg:text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed"
           >
             Whether you need event weather support, emergency management
             consulting, or research collaboration, DSOC is ready to help.

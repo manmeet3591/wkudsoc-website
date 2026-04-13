@@ -18,8 +18,8 @@ export default function Services() {
         subtitle="Comprehensive weather intelligence and disaster support for communities, events, and industry."
       />
 
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <motion.div
             variants={staggerContainer}
             initial="hidden"

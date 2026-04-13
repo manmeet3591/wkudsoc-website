@@ -121,13 +121,13 @@ export default function Navbar() {
             : 'bg-transparent'
         )}
       >
-        <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-full flex items-center justify-between">
           {/* Logo */}
           <Link
             to="/"
             className="flex-shrink-0"
           >
-            <img src="/wkudsoc-website/images/dsoc-logo.png" alt="WKU DSOC - Home" className="h-14 lg:h-16" />
+            <img src="/wkudsoc-website/images/dsoc-logo.png" alt="WKU DSOC - Home" className="h-14 lg:h-16 max-w-[200px]" />
           </Link>
 
           {/* Desktop Navigation */}

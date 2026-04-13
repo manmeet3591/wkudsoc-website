@@ -59,8 +59,8 @@ export default function Partners() {
       />
 
       {/* Partners Grid */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Partnerships"
@@ -118,8 +118,8 @@ export default function Partners() {
       </section>
 
       {/* Consortium Members */}
-      <section className="py-24 bg-charcoal-dark">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Regional Network"
@@ -157,9 +157,9 @@ export default function Partners() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-charcoal relative overflow-hidden">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal relative overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-wku-red/5 rounded-full blur-[150px] pointer-events-none" />
-        <div className="max-w-3xl mx-auto px-6 text-center relative">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center relative">
           <ScrollReveal>
             <h2 className="text-3xl lg:text-4xl font-bold text-white">
               Become a Partner

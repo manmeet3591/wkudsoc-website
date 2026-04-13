@@ -16,17 +16,17 @@ function getInitials(name: string): string {
 
 export default function TeamMemberCard({ member }: TeamMemberCardProps) {
   return (
-    <GlassCard className="p-6 text-center">
+    <GlassCard className="p-4 sm:p-6 lg:p-8 text-center">
       {/* Avatar */}
       <div className="flex justify-center">
         {member.image ? (
           <img
             src={member.image}
             alt={member.name}
-            className="w-32 h-32 rounded-full object-cover mx-auto border-2 border-white/10"
+            className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 rounded-full object-cover mx-auto border-2 border-white/10"
           />
         ) : (
-          <div className="w-32 h-32 rounded-full bg-gradient-to-br from-wku-red to-wku-red-light flex items-center justify-center mx-auto">
+          <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 rounded-full bg-gradient-to-br from-wku-red to-wku-red-light flex items-center justify-center mx-auto">
             <span className="text-white font-bold text-xl">
               {getInitials(member.name)}
             </span>

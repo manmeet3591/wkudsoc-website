@@ -68,8 +68,8 @@ export default function Media() {
         subtitle="Coverage, press, and media highlights from DSOC operations and research."
       />
 
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Category Filter Tabs */}
           <div className="flex flex-wrap justify-center gap-2 mb-12">
             {categories.map((category) => (

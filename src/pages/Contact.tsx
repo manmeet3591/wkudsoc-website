@@ -60,9 +60,9 @@ export default function Contact() {
       />
 
       {/* Contact Form + Info */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col lg:flex-row gap-12">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-12">
             {/* Contact Form */}
             <div className="lg:w-7/12">
               <ScrollReveal>
@@ -111,8 +111,8 @@ export default function Contact() {
       </section>
 
       {/* Locations */}
-      <section className="py-24 bg-charcoal-dark">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <ScrollReveal>
             <SectionHeading
               overline="Our Facilities"

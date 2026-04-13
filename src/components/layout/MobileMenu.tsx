@@ -67,7 +67,7 @@ function MobileNavItem({
           to={item.href}
           onClick={onClose}
           className={clsx(
-            'text-2xl font-semibold transition-colors duration-200',
+            'text-xl font-semibold transition-colors duration-200',
             isActive ? 'text-wku-red' : 'text-white hover:text-wku-red'
           )}
         >
@@ -109,7 +109,7 @@ function MobileNavItem({
                     to={child.href}
                     onClick={onClose}
                     className={clsx(
-                      'block text-lg transition-colors duration-200',
+                      'block text-base transition-colors duration-200',
                       childActive
                         ? 'text-wku-red'
                         : 'text-text-secondary hover:text-white'
@@ -152,7 +152,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="absolute top-0 right-0 bottom-0 w-full max-w-sm bg-charcoal-dark border-l border-white/10 flex flex-col"
+            className="absolute top-0 right-0 bottom-0 w-full max-w-md bg-charcoal-dark border-l border-white/10 flex flex-col"
           >
             {/* Close button */}
             <div className="flex justify-end p-6">
@@ -171,7 +171,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               variants={listVariants}
               initial="hidden"
               animate="visible"
-              className="flex-1 px-8 space-y-6"
+              className="flex-1 px-6 space-y-6"
             >
               {navigation.map((item) => (
                 <MobileNavItem key={item.href} item={item} onClose={onClose} />

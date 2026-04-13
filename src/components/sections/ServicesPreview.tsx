@@ -26,10 +26,10 @@ const iconMap: Record<string, LucideIcon> = {
 
 export default function ServicesPreview() {
   return (
-    <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+    <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark relative overflow-hidden">
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-wku-red-light/5 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <SectionHeading
           overline="What We Do"
           title="Our Services"

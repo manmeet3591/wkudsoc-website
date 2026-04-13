@@ -47,7 +47,7 @@ export default function PageHero({
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-wku-red/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-wku-red-light/5 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="relative py-32 lg:py-40">
+      <div className="relative py-20 sm:py-24 lg:py-32">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             variants={fadeInUp}
@@ -72,13 +72,13 @@ export default function PageHero({
             </nav>
 
             {/* Title */}
-            <h1 className="text-5xl lg:text-6xl font-bold text-white">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
               {title}
             </h1>
 
             {/* Subtitle */}
             {subtitle && (
-              <p className="mt-4 text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
                 {subtitle}
               </p>
             )}

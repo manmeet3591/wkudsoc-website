@@ -24,8 +24,8 @@ export default function Team() {
       />
 
       {/* Leadership & Administration */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <SectionHeading
             overline="Leadership"
             title="Leadership & Administration"
@@ -37,7 +37,7 @@ export default function Team() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-80px' }}
-            className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-16"
           >
             {administrators.map((member) => (
               <motion.div key={member.name} variants={fadeInUp}>
@@ -49,8 +49,8 @@ export default function Team() {
       </section>
 
       {/* Graduate Researchers */}
-      <section className="py-24 bg-charcoal-dark">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal-dark">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <SectionHeading
             overline="Graduate Students"
             title="Graduate Researchers"
@@ -62,7 +62,7 @@ export default function Team() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: '-80px' }}
-            className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="mt-16 grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-16"
           >
             {graduates.map((member) => (
               <motion.div key={member.name} variants={fadeInUp}>
@@ -74,8 +74,8 @@ export default function Team() {
       </section>
 
       {/* Undergraduate Researchers */}
-      <section className="py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-24 bg-charcoal">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <SectionHeading
             overline="Undergraduate Students"
             title="Undergraduate Researchers"

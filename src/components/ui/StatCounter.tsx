@@ -40,7 +40,7 @@ export default function StatCounter({
 
   return (
     <div ref={ref} className="text-center">
-      <div className="text-4xl lg:text-5xl font-bold font-mono gradient-text">
+      <div className="text-3xl lg:text-4xl font-bold font-mono gradient-text">
         {displayValue}
         {suffix && <span>{suffix}</span>}
       </div>

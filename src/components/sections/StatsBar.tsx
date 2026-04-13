@@ -5,8 +5,8 @@ import { stats } from '../../data/stats';
 
 export default function StatsBar() {
   return (
-    <section className="relative py-16 bg-charcoal-dark border-y border-white/5">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="relative py-12 lg:py-20 bg-charcoal-dark border-y border-white/5">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <motion.div
           variants={staggerContainer}
           initial="hidden"

@@ -5,11 +5,11 @@ import { Target, Eye } from 'lucide-react';
 
 export default function MissionStatement() {
   return (
-    <section className="py-24 bg-charcoal relative overflow-hidden">
+    <section className="py-12 sm:py-16 lg:py-24 bg-charcoal relative overflow-hidden">
       {/* Subtle gradient orb */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-wku-red/5 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <ScrollReveal>
           <SectionHeading
             overline="Our Purpose"
@@ -18,7 +18,7 @@ export default function MissionStatement() {
           />
         </ScrollReveal>
 
-        <div className="mt-16 grid lg:grid-cols-2 gap-8">
+        <div className="mt-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
           <ScrollReveal direction="left">
             <GlassCard className="p-8 h-full">
               <div className="w-14 h-14 rounded-xl bg-wku-red/10 flex items-center justify-center mb-4">
