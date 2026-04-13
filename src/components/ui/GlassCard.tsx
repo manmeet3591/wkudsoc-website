@@ -25,7 +25,7 @@ export default function GlassCard({
           ? {
               y: -4,
               boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
-              borderColor: 'rgba(59, 130, 246, 0.3)',
+              borderColor: 'rgba(196, 18, 48, 0.3)',
             }
           : undefined
       }

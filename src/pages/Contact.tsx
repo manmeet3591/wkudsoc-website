@@ -60,7 +60,7 @@ export default function Contact() {
       />
 
       {/* Contact Form + Info */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col lg:flex-row gap-12">
             {/* Contact Form */}
@@ -84,18 +84,18 @@ export default function Contact() {
                       <h3 className="text-lg font-semibold text-white">
                         {contact.name}
                       </h3>
-                      <p className="text-sm text-electric">{contact.title}</p>
+                      <p className="text-sm text-wku-red">{contact.title}</p>
                       <div className="mt-3 space-y-2">
                         <a
                           href={`mailto:${contact.email}`}
-                          className="flex items-center gap-2 text-sm text-text-secondary hover:text-electric transition-colors duration-200"
+                          className="flex items-center gap-2 text-sm text-text-secondary hover:text-wku-red transition-colors duration-200"
                         >
                           <Mail className="w-4 h-4 flex-shrink-0" />
                           {contact.email}
                         </a>
                         <a
                           href={`tel:${contact.phone}`}
-                          className="flex items-center gap-2 text-sm text-text-secondary hover:text-electric transition-colors duration-200"
+                          className="flex items-center gap-2 text-sm text-text-secondary hover:text-wku-red transition-colors duration-200"
                         >
                           <Phone className="w-4 h-4 flex-shrink-0" />
                           {contact.phone}
@@ -111,7 +111,7 @@ export default function Contact() {
       </section>
 
       {/* Locations */}
-      <section className="py-24 bg-navy-dark">
+      <section className="py-24 bg-charcoal-dark">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -132,7 +132,7 @@ export default function Contact() {
               <motion.div key={location.name} variants={fadeInUp}>
                 <GlassCard className="p-5 h-full">
                   <div className="flex items-start gap-3">
-                    <MapPin className="w-5 h-5 text-electric flex-shrink-0 mt-0.5" />
+                    <MapPin className="w-5 h-5 text-wku-red flex-shrink-0 mt-0.5" />
                     <div>
                       <h3 className="text-sm font-semibold text-white">
                         {location.name}

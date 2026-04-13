@@ -37,15 +37,15 @@ export default function PageHero({
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         >
-          <div className="absolute inset-0 bg-navy-dark/80" />
+          <div className="absolute inset-0 bg-charcoal-dark/80" />
         </div>
       ) : (
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-dark via-navy to-navy" />
+        <div className="absolute inset-0 bg-gradient-to-b from-charcoal-dark via-charcoal to-charcoal" />
       )}
 
       {/* Decorative subtle gradient orbs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-electric/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-cyan/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-wku-red/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-wku-red-light/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="relative py-32 lg:py-40">
         <div className="max-w-7xl mx-auto px-6">
@@ -61,13 +61,13 @@ export default function PageHero({
                 <li>
                   <Link
                     to="/"
-                    className="hover:text-electric transition-colors duration-200"
+                    className="hover:text-wku-red transition-colors duration-200"
                   >
                     Home
                   </Link>
                 </li>
                 <li aria-hidden="true">/</li>
-                <li className="text-electric font-medium">{breadcrumbLabel}</li>
+                <li className="text-wku-red font-medium">{breadcrumbLabel}</li>
               </ol>
             </nav>
 

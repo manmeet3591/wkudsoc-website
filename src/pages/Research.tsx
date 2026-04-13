@@ -40,7 +40,7 @@ export default function Research() {
       />
 
       {/* Disaster AI Tools */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -62,8 +62,8 @@ export default function Research() {
               return (
                 <motion.div key={tool.slug} variants={fadeInUp}>
                   <GlassCard className="p-8 h-full flex flex-col">
-                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-electric/20 to-cyan/20 flex items-center justify-center">
-                      <Icon className="w-8 h-8 text-electric" />
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-wku-red/20 to-wku-red-light/20 flex items-center justify-center">
+                      <Icon className="w-8 h-8 text-wku-red" />
                     </div>
                     <h3 className="text-xl font-semibold text-white mt-5">
                       {tool.name}
@@ -76,7 +76,7 @@ export default function Research() {
                         href="#"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-electric text-sm font-medium hover:underline"
+                        className="inline-flex items-center gap-1.5 text-wku-red text-sm font-medium hover:underline"
                       >
                         Launch App{' '}
                         <ArrowRight className="w-4 h-4" />
@@ -91,8 +91,8 @@ export default function Research() {
       </section>
 
       {/* Research Areas */}
-      <section className="py-24 bg-navy-dark relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-electric/5 rounded-full blur-3xl pointer-events-none" />
+      <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-wku-red/5 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -114,8 +114,8 @@ export default function Research() {
               return (
                 <motion.div key={area.slug} variants={fadeInUp}>
                   <GlassCard className="p-8 h-full">
-                    <div className="w-14 h-14 rounded-xl bg-electric/10 flex items-center justify-center mb-4">
-                      <Icon className="w-7 h-7 text-electric" />
+                    <div className="w-14 h-14 rounded-xl bg-wku-red/10 flex items-center justify-center mb-4">
+                      <Icon className="w-7 h-7 text-wku-red" />
                     </div>
                     <h3 className="text-xl font-semibold text-white">
                       {area.name}
@@ -132,7 +132,7 @@ export default function Research() {
       </section>
 
       {/* Publications */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -151,7 +151,7 @@ export default function Research() {
           >
             {publications.map((pub, index) => (
               <motion.div key={index} variants={fadeInUp}>
-                <div className="rounded-2xl bg-white/[0.03] border border-white/[0.06] p-6 hover:border-electric/20 transition-colors duration-300">
+                <div className="rounded-2xl bg-white/[0.03] border border-white/[0.06] p-6 hover:border-wku-red/20 transition-colors duration-300">
                   <p className="text-sm text-text-secondary">
                     {pub.authors} ({pub.year})
                   </p>
@@ -166,7 +166,7 @@ export default function Research() {
                       href={`https://doi.org/${pub.doi}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-electric text-xs mt-2 hover:underline"
+                      className="inline-flex items-center gap-1 text-wku-red text-xs mt-2 hover:underline"
                     >
                       <ExternalLink className="w-3 h-3" />
                       {pub.doi}

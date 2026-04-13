@@ -26,7 +26,7 @@ export default function TeamMemberCard({ member }: TeamMemberCardProps) {
             className="w-32 h-32 rounded-full object-cover mx-auto border-2 border-white/10"
           />
         ) : (
-          <div className="w-32 h-32 rounded-full bg-gradient-to-br from-electric to-cyan flex items-center justify-center mx-auto">
+          <div className="w-32 h-32 rounded-full bg-gradient-to-br from-wku-red to-wku-red-light flex items-center justify-center mx-auto">
             <span className="text-white font-bold text-xl">
               {getInitials(member.name)}
             </span>
@@ -38,7 +38,7 @@ export default function TeamMemberCard({ member }: TeamMemberCardProps) {
       <h3 className="text-xl font-semibold text-white mt-4">{member.name}</h3>
 
       {/* Title */}
-      <p className="text-sm text-electric">{member.title}</p>
+      <p className="text-sm text-wku-red">{member.title}</p>
 
       {/* Role */}
       <p className="text-sm text-text-secondary">{member.role}</p>
@@ -52,7 +52,7 @@ export default function TeamMemberCard({ member }: TeamMemberCardProps) {
       {member.email && (
         <a
           href={`mailto:${member.email}`}
-          className="inline-flex items-center gap-1.5 mt-3 text-text-secondary hover:text-electric transition-colors duration-200 text-sm"
+          className="inline-flex items-center gap-1.5 mt-3 text-text-secondary hover:text-wku-red transition-colors duration-200 text-sm"
         >
           <Mail className="w-4 h-4" />
           {member.email}

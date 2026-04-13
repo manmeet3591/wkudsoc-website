@@ -39,8 +39,8 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
     >
       <GlassCard className="p-8 h-full">
         {/* Icon */}
-        <div className="w-14 h-14 rounded-xl bg-electric/10 flex items-center justify-center">
-          <Icon className="w-7 h-7 text-electric" />
+        <div className="w-14 h-14 rounded-xl bg-wku-red/10 flex items-center justify-center">
+          <Icon className="w-7 h-7 text-wku-red" />
         </div>
 
         {/* Name */}
@@ -58,7 +58,7 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
               key={i}
               className="flex items-start gap-2 text-sm text-text-secondary"
             >
-              <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-cyan flex-shrink-0" />
+              <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-wku-red-light flex-shrink-0" />
               {point}
             </li>
           ))}
@@ -66,7 +66,7 @@ export default function ServiceCard({ service, index }: ServiceCardProps) {
 
         {/* Learn more link */}
         <div className="mt-6">
-          <span className="text-electric text-sm font-medium cursor-pointer hover:underline">
+          <span className="text-wku-red text-sm font-medium cursor-pointer hover:underline">
             Learn more &rarr;
           </span>
         </div>

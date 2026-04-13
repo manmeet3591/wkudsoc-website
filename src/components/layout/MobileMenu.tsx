@@ -68,7 +68,7 @@ function MobileNavItem({
           onClick={onClose}
           className={clsx(
             'text-2xl font-semibold transition-colors duration-200',
-            isActive ? 'text-electric' : 'text-white hover:text-electric'
+            isActive ? 'text-wku-red' : 'text-white hover:text-wku-red'
           )}
         >
           {item.label}
@@ -111,7 +111,7 @@ function MobileNavItem({
                     className={clsx(
                       'block text-lg transition-colors duration-200',
                       childActive
-                        ? 'text-electric'
+                        ? 'text-wku-red'
                         : 'text-text-secondary hover:text-white'
                     )}
                   >
@@ -141,7 +141,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         >
           {/* Backdrop */}
           <div
-            className="absolute inset-0 bg-navy-dark/90 backdrop-blur-xl"
+            className="absolute inset-0 bg-charcoal-dark/90 backdrop-blur-xl"
             onClick={onClose}
             aria-hidden="true"
           />
@@ -152,7 +152,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="absolute top-0 right-0 bottom-0 w-full max-w-sm bg-navy-dark border-l border-white/10 flex flex-col"
+            className="absolute top-0 right-0 bottom-0 w-full max-w-sm bg-charcoal-dark border-l border-white/10 flex flex-col"
           >
             {/* Close button */}
             <div className="flex justify-end p-6">
@@ -183,7 +183,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <Link
                 to="/contact"
                 onClick={onClose}
-                className="block w-full text-center px-6 py-3.5 text-base font-semibold text-white bg-electric hover:bg-electric/90 rounded-lg transition-colors duration-300"
+                className="block w-full text-center px-6 py-3.5 text-base font-semibold text-white bg-wku-red hover:bg-wku-red/90 rounded-lg transition-colors duration-300"
               >
                 Contact Us
               </Link>

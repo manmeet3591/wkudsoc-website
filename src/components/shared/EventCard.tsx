@@ -37,7 +37,7 @@ export default function EventCard({ event }: EventCardProps) {
   return (
     <GlassCard
       className={`p-6 border-l-4 ${
-        isUpcoming ? 'border-l-electric' : 'border-l-amber'
+        isUpcoming ? 'border-l-wku-red' : 'border-l-amber'
       }`}
     >
       <div className="flex items-start gap-4">
@@ -45,8 +45,8 @@ export default function EventCard({ event }: EventCardProps) {
         {isUpcoming && (
           <div className="mt-1.5 flex-shrink-0">
             <span className="relative flex h-3 w-3">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-electric opacity-75" />
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-electric" />
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-wku-red opacity-75" />
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-wku-red" />
             </span>
           </div>
         )}

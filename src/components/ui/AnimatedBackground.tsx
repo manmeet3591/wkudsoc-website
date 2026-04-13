@@ -22,7 +22,7 @@ function generateParticles(count: number): Particle[] {
       opacity: 0.1 + Math.random() * 0.2, // 0.1-0.3
       duration: 15 + Math.random() * 15, // 15-30s
       delay: Math.random() * -30, // stagger start
-      color: Math.random() > 0.5 ? 'rgba(255,255,255,0.1)' : 'rgba(59,130,246,0.2)',
+      color: Math.random() > 0.5 ? 'rgba(255,255,255,0.1)' : 'rgba(196,18,48,0.2)',
     });
   }
   return particles;

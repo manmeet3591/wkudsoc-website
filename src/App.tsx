@@ -7,7 +7,6 @@ import Team from './pages/Team'
 import Partners from './pages/Partners'
 import Services from './pages/Services'
 import Media from './pages/Media'
-import Blog from './pages/Blog'
 import Events from './pages/Events'
 import Research from './pages/Research'
 import Contact from './pages/Contact'
@@ -35,7 +34,6 @@ function App() {
           <Route path="/partners" element={<Partners />} />
           <Route path="/services" element={<Services />} />
           <Route path="/media" element={<Media />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/events" element={<Events />} />
           <Route path="/research" element={<Research />} />
           <Route path="/contact" element={<Contact />} />

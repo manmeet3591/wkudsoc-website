@@ -18,7 +18,7 @@ const initialFormData: FormData = {
 };
 
 const inputClasses =
-  'w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:border-electric focus:ring-1 focus:ring-electric/50 outline-none text-white placeholder:text-text-secondary transition-colors duration-200';
+  'w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 focus:border-wku-red focus:ring-1 focus:ring-wku-red/50 outline-none text-white placeholder:text-text-secondary transition-colors duration-200';
 
 const labelClasses = 'block text-sm font-medium text-text-secondary mb-2';
 
@@ -43,9 +43,9 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 p-8 text-center">
-        <div className="w-16 h-16 rounded-full bg-electric/20 flex items-center justify-center mx-auto mb-4">
+        <div className="w-16 h-16 rounded-full bg-wku-red/20 flex items-center justify-center mx-auto mb-4">
           <svg
-            className="w-8 h-8 text-electric"
+            className="w-8 h-8 text-wku-red"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

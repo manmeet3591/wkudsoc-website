@@ -10,8 +10,8 @@ const toolIcons = [Brain, Map, CloudRain];
 
 export default function AIShowcase() {
   return (
-    <section className="py-24 bg-navy relative overflow-hidden">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-electric/5 rounded-full blur-[150px] pointer-events-none" />
+    <section className="py-24 bg-charcoal relative overflow-hidden">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-wku-red/5 rounded-full blur-[150px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading
@@ -32,8 +32,8 @@ export default function AIShowcase() {
             return (
               <motion.div key={tool.slug} variants={fadeInUp}>
                 <GlassCard className="p-8 h-full flex flex-col">
-                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-electric/20 to-cyan/20 flex items-center justify-center">
-                    <Icon className="w-7 h-7 text-electric" />
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-wku-red/20 to-wku-red-light/20 flex items-center justify-center">
+                    <Icon className="w-7 h-7 text-wku-red" />
                   </div>
                   <h3 className="text-xl font-semibold text-white mt-4">
                     {tool.name}
@@ -42,7 +42,7 @@ export default function AIShowcase() {
                     {tool.description}
                   </p>
                   <div className="mt-6">
-                    <span className="inline-flex items-center gap-1.5 text-electric text-sm font-medium cursor-pointer hover:underline">
+                    <span className="inline-flex items-center gap-1.5 text-wku-red text-sm font-medium cursor-pointer hover:underline">
                       Launch App <ArrowRight className="w-4 h-4" />
                     </span>
                   </div>

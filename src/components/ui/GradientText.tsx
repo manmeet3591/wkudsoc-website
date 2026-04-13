@@ -10,7 +10,7 @@ export default function GradientText({ children, className }: GradientTextProps)
   return (
     <span
       className={clsx(
-        'bg-gradient-to-r from-electric to-cyan bg-clip-text text-transparent',
+        'bg-gradient-to-r from-wku-red to-wku-red-light bg-clip-text text-transparent',
         className
       )}
     >

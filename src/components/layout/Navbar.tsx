@@ -16,12 +16,12 @@ function DropdownMenu({ items }: { items: NavItem[] }) {
       transition={{ duration: 0.2, ease: 'easeOut' }}
       className="absolute top-full left-1/2 -translate-x-1/2 pt-3"
     >
-      <div className="min-w-[220px] rounded-xl bg-navy-light/90 backdrop-blur-xl border border-white/10 shadow-2xl p-2">
+      <div className="min-w-[220px] rounded-xl bg-charcoal-light/90 backdrop-blur-xl border border-white/10 shadow-2xl p-2">
         {items.map((child) => (
           <Link
             key={child.href}
             to={child.href}
-            className="block px-4 py-2.5 text-sm text-text-secondary rounded-lg hover:text-electric hover:bg-white/5 transition-colors duration-200"
+            className="block px-4 py-2.5 text-sm text-text-secondary rounded-lg hover:text-wku-red hover:bg-white/5 transition-colors duration-200"
           >
             {child.label}
           </Link>
@@ -50,7 +50,7 @@ function NavLink({ item }: { item: NavItem }) {
         to={item.href}
         className={clsx(
           'relative flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors duration-300',
-          isActive ? 'text-electric' : 'text-text-secondary hover:text-white'
+          isActive ? 'text-wku-red' : 'text-text-secondary hover:text-white'
         )}
       >
         {item.label}
@@ -66,7 +66,7 @@ function NavLink({ item }: { item: NavItem }) {
         {isActive && (
           <motion.span
             layoutId="navbar-indicator"
-            className="absolute -bottom-1 left-3 right-3 h-0.5 bg-electric rounded-full"
+            className="absolute -bottom-1 left-3 right-3 h-0.5 bg-wku-red rounded-full"
             transition={{ type: 'spring', stiffness: 380, damping: 30 }}
           />
         )}
@@ -117,7 +117,7 @@ export default function Navbar() {
         className={clsx(
           'fixed top-0 left-0 right-0 z-50 h-20 transition-all duration-300',
           scrolled
-            ? 'bg-navy/80 backdrop-blur-xl border-b border-white/10 shadow-lg shadow-black/10'
+            ? 'bg-charcoal/80 backdrop-blur-xl border-b border-white/10 shadow-lg shadow-black/10'
             : 'bg-transparent'
         )}
       >
@@ -125,9 +125,9 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             to="/"
-            className="text-xl font-bold gradient-text flex-shrink-0"
+            className="flex-shrink-0"
           >
-            WKU DSOC
+            <img src="/wkudsoc-website/images/dsoc-logo.png" alt="WKU DSOC" className="h-10" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -140,7 +140,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <Link
             to="/contact"
-            className="hidden lg:inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white bg-electric hover:bg-electric/90 rounded-lg transition-colors duration-300 flex-shrink-0"
+            className="hidden lg:inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white bg-wku-red hover:bg-wku-red/90 rounded-lg transition-colors duration-300 flex-shrink-0"
           >
             Contact Us
           </Link>

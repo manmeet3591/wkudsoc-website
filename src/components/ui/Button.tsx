@@ -14,9 +14,9 @@ interface ButtonProps {
 
 const variantStyles = {
   primary:
-    'bg-gradient-to-r from-electric to-blue-600 text-white shadow-lg hover:shadow-[0_0_30px_rgba(59,130,246,0.4)]',
+    'bg-gradient-to-r from-wku-red to-red-700 text-white shadow-lg hover:shadow-[0_0_30px_rgba(196,18,48,0.4)]',
   secondary:
-    'bg-transparent border border-white/20 text-white hover:border-electric hover:text-electric',
+    'bg-transparent border border-white/20 text-white hover:border-wku-red hover:text-wku-red',
   ghost: 'bg-transparent text-white hover:bg-white/5',
 };
 

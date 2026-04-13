@@ -6,10 +6,10 @@ import { ArrowRight, Mail } from 'lucide-react';
 
 export default function CTASection() {
   return (
-    <section className="py-24 bg-navy-dark relative overflow-hidden">
+    <section className="py-24 bg-charcoal-dark relative overflow-hidden">
       {/* Gradient orbs */}
-      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-electric/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-80 h-80 bg-cyan/8 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-96 h-96 bg-wku-red/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-80 h-80 bg-wku-red-light/8 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="max-w-4xl mx-auto px-6 text-center relative">
         <motion.div
@@ -20,7 +20,7 @@ export default function CTASection() {
         >
           <motion.p
             variants={fadeInUp}
-            className="uppercase text-sm tracking-widest font-semibold text-electric mb-4"
+            className="uppercase text-sm tracking-widest font-semibold text-wku-red mb-4"
           >
             Get Involved
           </motion.p>

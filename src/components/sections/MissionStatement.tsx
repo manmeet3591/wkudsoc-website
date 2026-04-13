@@ -5,9 +5,9 @@ import { Target, Eye } from 'lucide-react';
 
 export default function MissionStatement() {
   return (
-    <section className="py-24 bg-navy relative overflow-hidden">
+    <section className="py-24 bg-charcoal relative overflow-hidden">
       {/* Subtle gradient orb */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-electric/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-wku-red/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6">
         <ScrollReveal>
@@ -21,8 +21,8 @@ export default function MissionStatement() {
         <div className="mt-16 grid lg:grid-cols-2 gap-8">
           <ScrollReveal direction="left">
             <GlassCard className="p-8 h-full">
-              <div className="w-14 h-14 rounded-xl bg-electric/10 flex items-center justify-center mb-4">
-                <Target className="w-7 h-7 text-electric" />
+              <div className="w-14 h-14 rounded-xl bg-wku-red/10 flex items-center justify-center mb-4">
+                <Target className="w-7 h-7 text-wku-red" />
               </div>
               <h3 className="text-2xl font-semibold text-white mb-3">
                 Our Mission
@@ -40,8 +40,8 @@ export default function MissionStatement() {
 
           <ScrollReveal direction="right">
             <GlassCard className="p-8 h-full">
-              <div className="w-14 h-14 rounded-xl bg-cyan/10 flex items-center justify-center mb-4">
-                <Eye className="w-7 h-7 text-cyan" />
+              <div className="w-14 h-14 rounded-xl bg-wku-red-light/10 flex items-center justify-center mb-4">
+                <Eye className="w-7 h-7 text-wku-red-light" />
               </div>
               <h3 className="text-2xl font-semibold text-white mb-3">
                 Our Vision

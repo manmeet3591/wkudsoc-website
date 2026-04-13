@@ -7,12 +7,12 @@ import { ArrowRight, Shield } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-b from-navy-dark via-navy to-navy">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-b from-charcoal-dark via-charcoal to-charcoal">
       <AnimatedBackground />
 
       {/* Gradient orbs */}
-      <div className="absolute top-1/3 left-1/4 w-[500px] h-[500px] bg-electric/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-1/3 right-1/4 w-[400px] h-[400px] bg-cyan/8 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute top-1/3 left-1/4 w-[500px] h-[500px] bg-wku-red/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-1/3 right-1/4 w-[400px] h-[400px] bg-wku-red-light/8 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6 py-32 lg:py-40 w-full">
         <motion.div
@@ -21,10 +21,15 @@ export default function Hero() {
           animate="visible"
           className="text-center max-w-4xl mx-auto"
         >
+          {/* Logo */}
+          <motion.div variants={fadeInUp} className="mb-8">
+            <img src="/wkudsoc-website/images/dsoc-logo.png" alt="WKU DSOC" className="h-16 lg:h-20 mx-auto" />
+          </motion.div>
+
           {/* Badge */}
           <motion.div variants={fadeInUp} className="mb-6">
             <span className="inline-flex items-center gap-2 rounded-full bg-white/5 border border-white/10 px-4 py-2 text-sm text-text-secondary backdrop-blur-sm">
-              <Shield className="w-4 h-4 text-electric" />
+              <Shield className="w-4 h-4 text-wku-red" />
               Western Kentucky University
             </span>
           </motion.div>

@@ -8,7 +8,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className="flex flex-col min-h-screen bg-navy">
+    <div className="flex flex-col min-h-screen bg-charcoal">
       <Navbar />
       <main className="flex-1">{children}</main>
       <Footer />

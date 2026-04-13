@@ -26,8 +26,8 @@ const iconMap: Record<string, LucideIcon> = {
 
 export default function ServicesPreview() {
   return (
-    <section className="py-24 bg-navy-dark relative overflow-hidden">
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan/5 rounded-full blur-3xl pointer-events-none" />
+    <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-wku-red-light/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading
@@ -48,8 +48,8 @@ export default function ServicesPreview() {
             return (
               <motion.div key={service.slug} variants={fadeInUp}>
                 <GlassCard className="p-6 h-full flex flex-col">
-                  <div className="w-12 h-12 rounded-xl bg-electric/10 flex items-center justify-center">
-                    <Icon className="w-6 h-6 text-electric" />
+                  <div className="w-12 h-12 rounded-xl bg-wku-red/10 flex items-center justify-center">
+                    <Icon className="w-6 h-6 text-wku-red" />
                   </div>
                   <h3 className="text-lg font-semibold text-white mt-4">
                     {service.name}

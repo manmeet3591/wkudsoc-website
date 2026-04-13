@@ -9,8 +9,8 @@ interface BadgeProps {
 
 const variantStyles = {
   default: 'bg-white/10 text-white',
-  electric: 'bg-electric/20 text-electric',
-  cyan: 'bg-cyan/20 text-cyan',
+  electric: 'bg-wku-red/20 text-wku-red',
+  cyan: 'bg-wku-red-light/20 text-wku-red-light',
   amber: 'bg-amber/20 text-amber',
   danger: 'bg-danger/20 text-danger',
 };

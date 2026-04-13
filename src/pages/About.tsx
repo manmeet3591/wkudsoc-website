@@ -110,7 +110,7 @@ export default function About() {
       />
 
       {/* Introduction */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-4xl mx-auto px-6">
           <ScrollReveal>
             <div className="space-y-6">
@@ -136,7 +136,7 @@ export default function About() {
               </p>
 
               {/* Pull quote */}
-              <blockquote className="border-l-4 border-electric pl-6 py-2 my-8">
+              <blockquote className="border-l-4 border-wku-red pl-6 py-2 my-8">
                 <p className="text-xl text-white font-medium italic leading-relaxed">
                   "Working Together to Move Forward — that is more than a slogan.
                   It is the foundation of everything we do at DSOC. Every
@@ -154,8 +154,8 @@ export default function About() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-24 bg-navy-dark relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-electric/5 rounded-full blur-3xl pointer-events-none" />
+      <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-wku-red/5 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -167,8 +167,8 @@ export default function About() {
           <div className="mt-16 grid lg:grid-cols-2 gap-8">
             <ScrollReveal direction="left">
               <GlassCard className="p-8 h-full">
-                <div className="w-14 h-14 rounded-xl bg-electric/10 flex items-center justify-center mb-4">
-                  <Target className="w-7 h-7 text-electric" />
+                <div className="w-14 h-14 rounded-xl bg-wku-red/10 flex items-center justify-center mb-4">
+                  <Target className="w-7 h-7 text-wku-red" />
                 </div>
                 <h3 className="text-2xl font-semibold text-white mb-3">
                   Mission
@@ -186,8 +186,8 @@ export default function About() {
 
             <ScrollReveal direction="right">
               <GlassCard className="p-8 h-full">
-                <div className="w-14 h-14 rounded-xl bg-cyan/10 flex items-center justify-center mb-4">
-                  <Eye className="w-7 h-7 text-cyan" />
+                <div className="w-14 h-14 rounded-xl bg-wku-red-light/10 flex items-center justify-center mb-4">
+                  <Eye className="w-7 h-7 text-wku-red-light" />
                 </div>
                 <h3 className="text-2xl font-semibold text-white mb-3">
                   Vision
@@ -207,7 +207,7 @@ export default function About() {
       </section>
 
       {/* Who We Serve */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -229,8 +229,8 @@ export default function About() {
               return (
                 <motion.div key={item.label} variants={fadeInUp}>
                   <GlassCard className="p-6 h-full">
-                    <div className="w-12 h-12 rounded-xl bg-electric/10 flex items-center justify-center mb-3">
-                      <Icon className="w-6 h-6 text-electric" />
+                    <div className="w-12 h-12 rounded-xl bg-wku-red/10 flex items-center justify-center mb-3">
+                      <Icon className="w-6 h-6 text-wku-red" />
                     </div>
                     <h3 className="text-lg font-semibold text-white">
                       {item.label}
@@ -247,8 +247,8 @@ export default function About() {
       </section>
 
       {/* Our Goals */}
-      <section className="py-24 bg-navy-dark relative overflow-hidden">
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-cyan/5 rounded-full blur-3xl pointer-events-none" />
+      <section className="py-24 bg-charcoal-dark relative overflow-hidden">
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-wku-red-light/5 rounded-full blur-3xl pointer-events-none" />
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -269,7 +269,7 @@ export default function About() {
               <motion.div key={index} variants={fadeInUp}>
                 <GlassCard className="p-6 h-full">
                   <div className="flex items-start gap-4">
-                    <span className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-electric to-cyan flex items-center justify-center text-white font-bold text-sm">
+                    <span className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-wku-red to-wku-red-light flex items-center justify-center text-white font-bold text-sm">
                       {index + 1}
                     </span>
                     <p className="text-text-secondary leading-relaxed">
@@ -284,7 +284,7 @@ export default function About() {
       </section>
 
       {/* What Makes Us Stand Out */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -305,8 +305,8 @@ export default function About() {
               return (
                 <motion.div key={item.title} variants={fadeInUp}>
                   <GlassCard className="p-8 h-full">
-                    <div className="w-14 h-14 rounded-xl bg-electric/10 flex items-center justify-center mb-4">
-                      <Icon className="w-7 h-7 text-electric" />
+                    <div className="w-14 h-14 rounded-xl bg-wku-red/10 flex items-center justify-center mb-4">
+                      <Icon className="w-7 h-7 text-wku-red" />
                     </div>
                     <h3 className="text-xl font-semibold text-white mb-4">
                       {item.title}
@@ -317,7 +317,7 @@ export default function About() {
                           key={i}
                           className="flex items-start gap-2 text-sm text-text-secondary"
                         >
-                          <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-cyan flex-shrink-0" />
+                          <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-wku-red-light flex-shrink-0" />
                           {point}
                         </li>
                       ))}

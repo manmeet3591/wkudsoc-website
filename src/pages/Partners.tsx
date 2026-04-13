@@ -59,7 +59,7 @@ export default function Partners() {
       />
 
       {/* Partners Grid */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -78,8 +78,8 @@ export default function Partners() {
                 className={clsx(
                   'px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 cursor-pointer',
                   activeFilter === tab.value
-                    ? 'bg-electric text-white'
-                    : 'bg-white/5 text-text-secondary border border-white/10 hover:border-electric hover:text-electric'
+                    ? 'bg-wku-red text-white'
+                    : 'bg-white/5 text-text-secondary border border-white/10 hover:border-wku-red hover:text-wku-red'
                 )}
               >
                 {tab.label}
@@ -99,7 +99,7 @@ export default function Partners() {
             {filteredPartners.map((partner) => (
               <motion.div key={partner.name} variants={fadeInUp}>
                 <GlassCard className="p-6 h-full">
-                  <span className="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-electric/20 text-electric mb-3">
+                  <span className="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-wku-red/20 text-wku-red mb-3">
                     {getCategoryLabel(partner.category)}
                   </span>
                   <h3 className="text-lg font-semibold text-white">
@@ -118,7 +118,7 @@ export default function Partners() {
       </section>
 
       {/* Consortium Members */}
-      <section className="py-24 bg-navy-dark">
+      <section className="py-24 bg-charcoal-dark">
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <SectionHeading
@@ -139,7 +139,7 @@ export default function Partners() {
               <motion.div key={member.county} variants={fadeInUp}>
                 <GlassCard className="p-4 h-full">
                   <div className="flex items-center gap-3">
-                    <MapPin className="w-4 h-4 text-electric flex-shrink-0" />
+                    <MapPin className="w-4 h-4 text-wku-red flex-shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-white">
                         {member.county} County
@@ -157,8 +157,8 @@ export default function Partners() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-navy relative overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-electric/5 rounded-full blur-[150px] pointer-events-none" />
+      <section className="py-24 bg-charcoal relative overflow-hidden">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-wku-red/5 rounded-full blur-[150px] pointer-events-none" />
         <div className="max-w-3xl mx-auto px-6 text-center relative">
           <ScrollReveal>
             <h2 className="text-3xl lg:text-4xl font-bold text-white">

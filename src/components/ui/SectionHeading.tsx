@@ -28,14 +28,14 @@ export default function SectionHeading({
         align === 'left' && 'text-left'
       )}
     >
-      <p className="uppercase text-sm tracking-widest font-semibold text-electric mb-4">
+      <p className="uppercase text-sm tracking-widest font-semibold text-wku-red mb-4">
         {overline}
       </p>
 
       <h2
         className={clsx(
           'text-4xl lg:text-5xl font-bold',
-          light ? 'text-navy' : 'text-white'
+          light ? 'text-charcoal' : 'text-white'
         )}
       >
         {title}
@@ -49,7 +49,7 @@ export default function SectionHeading({
           align === 'left' && 'flex justify-start'
         )}
       >
-        <div className="w-[60px] h-[3px] rounded-full bg-gradient-to-r from-electric to-cyan" />
+        <div className="w-[60px] h-[3px] rounded-full bg-gradient-to-r from-wku-red to-wku-red-light" />
       </div>
 
       {subtitle && (

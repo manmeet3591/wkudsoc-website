@@ -24,7 +24,7 @@ export default function Team() {
       />
 
       {/* Leadership & Administration */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeading
             overline="Leadership"
@@ -49,7 +49,7 @@ export default function Team() {
       </section>
 
       {/* Graduate Researchers */}
-      <section className="py-24 bg-navy-dark">
+      <section className="py-24 bg-charcoal-dark">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeading
             overline="Graduate Students"
@@ -74,7 +74,7 @@ export default function Team() {
       </section>
 
       {/* Undergraduate Researchers */}
-      <section className="py-24 bg-navy">
+      <section className="py-24 bg-charcoal">
         <div className="max-w-7xl mx-auto px-6">
           <SectionHeading
             overline="Undergraduate Students"

@@ -8,7 +8,7 @@ export default function PartnersCarousel() {
   const row2 = allPartners.slice(Math.ceil(allPartners.length / 2));
 
   return (
-    <section className="py-24 bg-navy relative overflow-hidden">
+    <section className="py-24 bg-charcoal relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <ScrollReveal>
           <SectionHeading
