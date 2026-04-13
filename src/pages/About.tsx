@@ -115,7 +115,7 @@ export default function About() {
           <ScrollReveal>
             <div className="space-y-6">
               <p className="text-lg text-text-secondary leading-relaxed">
-                The WKU Disaster Science and Operations Center (DSOC) was
+                The WKU Disaster Science Operations Center (DSOC) was
                 founded at Western Kentucky University to bridge the gap between
                 academic meteorological research and the real-world demands of
                 disaster preparedness and response. What began as a small

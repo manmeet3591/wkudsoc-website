@@ -39,7 +39,7 @@ export default function Hero() {
             variants={fadeInUp}
             className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight"
           >
-            Disaster Science &{' '}
+            Disaster Science{' '}
             <GradientText>Operations Center</GradientText>
           </motion.h1>
 

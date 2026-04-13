@@ -127,7 +127,7 @@ export default function Navbar() {
             to="/"
             className="flex-shrink-0"
           >
-            <img src="/wkudsoc-website/images/dsoc-logo.png" alt="WKU DSOC" className="h-10" />
+            <img src="/wkudsoc-website/images/dsoc-logo.png" alt="WKU DSOC - Home" className="h-14 lg:h-16" />
           </Link>
 
           {/* Desktop Navigation */}
